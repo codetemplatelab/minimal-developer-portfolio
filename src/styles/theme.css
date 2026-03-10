@@ -1,0 +1,20 @@
+:root {
+  --hero-glow-left: radial-gradient(circle at 20% 0%, rgba(15, 23, 42, 0.08), transparent 45%);
+  --hero-glow-right: radial-gradient(circle at 80% 0%, rgba(71, 85, 105, 0.12), transparent 45%);
+}
+
+body {
+  background-image: var(--hero-glow-left), var(--hero-glow-right);
+  background-repeat: no-repeat;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
