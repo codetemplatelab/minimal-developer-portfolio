@@ -13,6 +13,10 @@ This template is designed for marketplace buyers who want a clean, modern, and m
 - Responsive layout optimized for desktop, laptop, tablet, and mobile
 - Data-driven customization through dedicated configuration files
 
+## Live Demo
+
+- https://minimal-developer-portfolio-iota.vercel.app/
+
 ## Tech Stack
 
 - React
